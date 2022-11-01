@@ -8,13 +8,25 @@
         <module>common/service_util</module>
         <module>model</module>
         <module>service</module>
+        <module>service_client</module>
+        <module>service_client/service_cmn_client</module>
+        <module>service_gateway</module>
+        <module>service_client/service_user_client</module>
+        <module>service_client/service_hosp_client</module>
+        <!--        <module>service/service_hospita</module>-->
+<!--        <module>test</module>-->
+<!--        <module>service/service_hospital</module>-->
+<!--        <module>service/service_hosp</module>-->
+<!--        <module>service_hospital_</module>-->
+<!--        <module>service/service_hospita</module>-->
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.12.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+<!--        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
     </parent>
+
     <groupId>com.tencent</groupId>
     <artifactId>yygh_parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
